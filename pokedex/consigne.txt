@@ -1,0 +1,13 @@
+2025-02-14 12:44
+
+
+Ajouter une page pokemon.php (au singulier)
+- Aller sur cette page lors du clic sur une ligne d'un pokemon dans le tableau
+- Ajouter un parametre a la requete GET (via l'url) qui contient le nom du pokemon demandé
+- Faire une requête a l'api tiradex en utilisant ce parametre
+- Décoder les données du json et les mettre en page sur pokemon.php avec du html et un peu de css.
+
+Ajouter la possibilité de supprimer un pokémon de notre équipe
+- Ajouter un bouton qui redirige vers index.php et faisant une requete http DELETE
+- Ajouter en parametre de la requete le nom du pokemon à retirer de l'equipe
+- Gérer la requete DELETE en php pour supprimer la ligne du CSV en fonction du nom du pokemon fourni dans la requête
